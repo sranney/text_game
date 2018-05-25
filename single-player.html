@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        .title {
+            font-family: 'Bangers', cursive;
+            font-size: 5vw;
+            color: #700520;
+            text-align: center;
+        }
+        body {
+            background-image: radial-gradient(circle at bottom left, #4676da 30%, #7c5071);
+            height: 100vh;
+        }
+        .stats {
+            
+        }
+        .guessedLetters_letter {
+            position: relative;
+            height:60px;
+            width: 10%;
+            margin-right: 3px;
+            text-align: center;
+            font-size: 45px;
+        }
+        .guessedLetters_letter span {
+            position: absolute;
+            left: 0;
+            bottom:0;
+            height: 12px;
+            width: 100%;
+            background-color:black;
+        }
+        .letterBank {
+            display: flex;
+        }
+        .letterBank_letter {
+            font-family: 'Bangers', cursive;
+        }
+    </style>
+</head>
+<body>
+    <div class="title">
+        Text Battles
+    </div>
+    <div class="row stats">
+        <div class="stats_spec stats_spec-time">0:00</div>
+        <div class="stats_spec stats_spec-score"><span>150</span> points</div>
+    </div>
+
+    <div class="row guessedLetters">
+        <div class="guessedLetters_letter">
+            l
+            <span></span>
+        </div>
+        <div class="guessedLetters_letter">
+            e
+            <span></span>
+        </div>
+        <div class="guessedLetters_letter">
+            t
+            <span></span>
+        </div>
+        <div class="guessedLetters_letter">
+            t
+            <span></span>
+        </div>
+        <div class="guessedLetters_letter">
+            e
+            <span></span>
+        </div>
+        <div class="guessedLetters_letter">
+            r
+            <span></span>
+        </div>
+        <div class="guessedLetters_letter">
+            s
+            <span></span>
+        </div>
+    </div>
+    <div class="row letterBank">
+            <div class="letterBank_letter">l</div>
+            <div class="letterBank_letter">e</div>
+            <div class="letterBank_letter">t</div>
+            <div class="letterBank_letter">t</div>
+            <div class="letterBank_letter">e</div>
+            <div class="letterBank_letter">r</div>
+            <div class="letterBank_letter">s</div>
+        </div>    
+    <div class="row correctWords">
+        <div class="correctWords_word">let</div>
+        <div class="correctWords_word">rest</div>
+        <div class="correctWords_word">letter</div>
+        <div class="correctWords_word">letters</div>
+    </div>
+</body>
+</html>
